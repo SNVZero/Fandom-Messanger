@@ -1,0 +1,59 @@
+.users__wrapper{
+    display: flex;
+    background: #FFF;
+    border-radius: 4px;
+    padding: 25px 35px;
+    flex-direction: column;
+
+}
+
+.users__data{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 15px;
+}
+
+.users__content{
+    border-bottom: 2px solid #000;
+}
+
+.users__name{
+    font-size: 26px;
+    font-family: serif;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+
+.user__icon{
+width: 36px;
+height: 36px;
+}
+
+.count{
+    border-right: 2px solid #280033;
+    padding-right: 2px;
+}
+
+.users__elem{
+    margin-right: 20px;
+
+}
+
+.go-to__user{
+    color: #000;
+}
+
+.go-to__user:hover~.users__name{
+    text-decoration: underline;
+}
+
+.border__elem-main{
+    background: #280033;
+    height: 1px;
+    margin: 5px 25px ;
+
+}

@@ -1,0 +1,88 @@
+.page__ans{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.page__content{
+
+    padding: 10px 15px;
+}
+.page__content, .page_wrapper_main{
+    background-color: #fff;
+    border-radius: 6px;
+
+}
+.page_wrapper_main{
+    margin-left: 20px;
+    width: 700px;
+
+    height: auto;
+
+}
+
+.page_main-item{
+    padding: 20px 30px;
+
+}
+
+.page_name{
+    font-size: 26px;
+    font-family: serif;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+
+.page_nikname{
+    font-size: 16px;
+    font-family: serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.profile__icon{
+    border: 2px solid #f2f2f5;
+    border-radius: 7px;
+    width: 200px;
+    height: 200px;
+}
+
+.user__edit-content{
+    margin: 15px 0 10px 0;
+}
+
+.edit__user{
+
+    text-decoration: none;
+}
+
+.edit__user:hover>.edit__btn-in{
+    background-color: #f2f2f3;
+}
+
+.edit__btn-in{
+    border: 2px solid #f2f2f3;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+    color: #000;
+}
+
+.edit__btn-content{
+    padding: 5px 0 5px 0;
+}
+
+.border__elem{
+    background: #280033;
+    height: 1px;
+    margin: 5px 0 ;
+    width: 102%;
+}
+
+.border__elem-main{
+    background: #280033;
+    height: 1px;
+    margin: 5px 25px ;
+
+}

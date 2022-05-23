@@ -1,0 +1,36 @@
+.massage__btn{
+    color: #fff;
+    background-color: #280033;
+}
+
+.massage__btn:hover{
+    background: rgb(72, 0, 57) !important;
+}
+
+.added__user{
+    border: 2px solid #f2f2f3;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #013220;
+    height: inherit;
+    color: #FFF;
+}
+
+.massage__user{
+    cursor:pointer;
+}
+
+.added__user-content{
+    padding: 5px 0 5px 0;
+}
+
+.exept__friend{
+    background: #013220 !important;
+    color: #FFF;
+}
+
+.exept__friend:hover{
+    background:  green !important;
+}

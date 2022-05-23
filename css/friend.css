@@ -1,0 +1,21 @@
+.frind__title{
+    border-bottom: 2px solid #000;
+    display: flex;
+
+}
+
+.friend__title-content{
+    margin: 0 10px 10px 0;
+}
+
+.friend__title-btn{
+    border: 1px solid #280033;;
+    padding: 9px;
+    background: #280033;
+    color: #fff;
+    cursor: pointer;
+}
+
+.friend__title-btn:hover{
+    background:  rgb(72, 0, 57);
+}
